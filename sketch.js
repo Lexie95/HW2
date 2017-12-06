@@ -17,7 +17,7 @@ function draw() {
    // lerpColor blends two colors to find a third color somewhere between them.
   // lerpColor(col1,col2,amount)
   stroke(lerpColor(color('#ea0043'), color('#0fefca'), frameCount/180));
-  line(0,0,200*sin(frameCount)-200*sin(frameCount),200*sin(frameCount));
+  line(0,0,0,200*sin(frameCount));
 
   
     // Stops the draw function if a certain condition avaluates true
